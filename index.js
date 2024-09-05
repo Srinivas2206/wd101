@@ -90,7 +90,7 @@ function displayStoredEntries() {
             <td>${entry.email}</td>
             <td>${entry.password}</td>
             <td>${entry.dob}</td>
-            <td>${entry.acceptedTerms ? "Yes" : "No"}</td>
+            <td>${entry.acceptedTerms}</td>
         </tr>`;
         tableBody.insertAdjacentHTML("beforeend", row);
     });
